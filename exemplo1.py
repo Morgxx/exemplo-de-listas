@@ -1,5 +1,4 @@
 var = []
 for x in range(1,10):
-    resp = input ('Digite um valor:') 
-    var.append(resp)
+    var.append(input ('Digite um valor: ') )
 print (var) 
